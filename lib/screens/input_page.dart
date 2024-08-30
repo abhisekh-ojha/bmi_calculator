@@ -233,8 +233,8 @@ class _BMIBodyState extends State<BMIBody> {
                     context,
                     MaterialPageRoute(
                       builder: (context) => ResultPage(
-                        weightResult: calc.getresult(),
                         bmiResult: calc.calculate(),
+                        weightResult: calc.getresult(),
                         intrepretation: calc.getInterpretation(),
                       ),
                     ),
